@@ -1,0 +1,77 @@
+
+@font-face {
+   font-family: NordicaRegular;
+   src: url("fonts/NordicaRegular.otf") format("opentype");
+}
+
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   height:100%;
+   border: none;
+}
+
+a {
+   color: rgb(115, 155, 186);
+   text-decoration: none;
+}
+
+#header {
+   /*background-color: rgb(225, 244, 247);*/
+   width: 70%;
+   height: 70px;
+   padding-left: 15%;
+   padding-right: 15%;
+   padding-top: 30px;
+   border-bottom: 2px solid rgb(215, 215, 215);
+}
+
+#navbar {
+   float: right;
+   margin-top: 12px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 20px;
+    font-family: NordicaRegular, Helvetica, Verdana, Sans-Serif;
+    letter-spacing: 0.1em;
+}
+
+#navbar ul li a {
+    color: rgb(168, 168, 168);
+}
+
+#main {
+   height: 100%;
+   padding-left: 15%;
+   padding-right: 15%;
+   padding-top: 50px;
+}
+
+#profileCollumn {
+   float: left;
+   width: 45%;
+   height: 100%;
+   background-color: red;
+}
+
+#content {
+   float: right;
+   width: 55%;
+   background-color: blue;
+   height: 100%;
+}
