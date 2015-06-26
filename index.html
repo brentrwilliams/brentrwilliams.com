@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <title>Brent Williams</title>
+
+   <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+   <link rel="manifest" href="manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,26 +31,114 @@
    <span id="navbar">
       <ul>
          <li>
-            <a href="#">About</a>
+            <a id="aboutLink" href>About</a>
          </li>
          <li>
-            <a href="#">Projects</a>
+            <a id="projectsLink" href>Projects</a>
          </li>
          <li>
-            <a href="#">Resume</a>
+            <a id="resumeLink" href>Resume</a>
          </li>
          <li>
-            <a href="#">Contact</a>
+            <a id="contactLink" href>Contact</a>
          </li>
       </ul>
    </span>
 </div>
 <div id="main">
    <div id="profileCollumn">
+      <div id="profileImage"></div>
    </div>
    <div id="content">
+      <div id="about">
+         <p id="firstParagraph">
+            Hi! I'm Brent, a 24 year-old Technical Director living in Glendale, California. I currently work at DreamWorks Animation.
+         </p>
+         <p>
+            I received my B.S. and M.S. in Computer Science from <a href="http://www.calpoly.edu/">Cal Poly, San Luis Obispo</a> in June of 2015, graduating in the top 10% of my class.
+         </p>
+         <p>
+            My passion and strongest skills are in computer graphics. At Cal Poly I took every graphics related course they offered, and was an instructional student assistant for two of them.
+         </p>
+         <p>
+            My work experience in computer graphics started with interning in the Production Services and Resources Department of <a href="http://www.imageworks.com/">Sony Pictures Imageworks</a>. After that, I was hired by <a href="http://www.apple.com/">Apple</a> to help support iOS game developers by creating example applications using Apple's graphics framework, Metal.
+         </p>
+         <p>
+            When not developing, and maintaining tools for artists at <a href="http://www.dreamworksanimation.com/">DreamWorks</a>, you will likely find me on the sand, playing beach volleyball, or watching the latest 3D animated feature film.
+         </p>
+         <p>
+            If you would like to find out how to get in touch with me, see my <a href="">contact page</a>.
+         </p>
+      </div>
+
+      <div id="projects">
+         <h1>
+            Projects
+         </h1>
+
+         <div id="appleProject">
+            <div id="appleText">
+               <p>
+                  At Apple, I worked on multiple example applications including <a href="https://developer.apple.com/library/ios/samplecode/MetalShaderShowcase/Introduction/Intro.html">Metal Shader Showcase</a>, and <a href="https://developer.apple.com/library/ios/samplecode/MetalVideoCapture/Introduction/Intro.html">Metal Video Capture</a>.
+               </p>
+            </div>
+            <div id="appleIcon">
+               <a href="https://developer.apple.com/metal/"><img src="images/AppleIcon.png"></a>
+            </div>
+         </div>
+
+         <div id="gitProject">
+            <div id="gitText">
+               <p>
+                  Any of my personal publicly released code is on my <a href="https://github.com/brentrwilliams">GitHub account</a>. 
+               </p>
+            </div>
+            <div id="gitIcon">
+               <a href="https://github.com/brentrwilliams"><img src="images/GitIcon.png"></a>
+            </div>
+         </div>
+
+      </div>
+
+      <div id="resume">
+         <h1>
+            Resume
+         </h1>
+         <div id="resumeContents">
+            <div id="resumeText">
+               <p>
+                  Here is my single page resume in Abobe PDF format. It doesn't include my most recent work at DreamWorks. 
+               </p>
+               <p>
+                  If you are a recruiter, you should know that my current job is one I have dreamt of having for many years and I don't see taking a new one for a long time. 
+               </p>
+            </div>
+            <div id="resumeIcon">
+               <a href="Resume.pdf"><img src="images/ResumeIcon.png"></a>
+            </div>
+         </div>
+      </div>
+
+      <div id="contact">
+         <h1>
+            Contact
+         </h1>
+         <div id="contactContents">
+            <div id="contactText">
+               <p>
+                  If you would like to contact me, send me an email at <a href="mailto:brent@brentrwilliams.com">brent@brentrwilliams.com</a>.
+               </p>
+            </div>
+            <div id="emailIcon">
+               <a href="mailto:brent@brentrwilliams.com"><img src="images/EmailIcon.png"></a>
+            </div>
+         </div>
+      </div>
+
    </div>
 </div>
+
+<script src="js/index.js"></script>
 
 </body>
 </html>

@@ -1,12 +1,17 @@
 
 @font-face {
    font-family: NordicaRegular;
-   src: url("fonts/NordicaRegular.otf") format("opentype");
+   src: url("../fonts/NordicaRegular.otf") format("opentype");
+}
+
+
+@font-face {
+   font-family: NordicaThin;
+   src: url("../fonts/NordicaThin.otf") format("opentype");
 }
 
 
 html{
-    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -23,8 +28,21 @@ a {
    text-decoration: none;
 }
 
+p {
+   color: rgb(83, 83, 83);
+   font-family: Helvetica, Verdana, Sans-Serif;
+}
+
+h1 {
+   color: rgb(83, 83, 83);
+   font-size: 3em;
+   font-family: NordicaThin, Helvetica, Verdana, Sans-Serif;
+   font-weight: 400;
+   margin-top: 0em;
+   margin-bottom: 0em;
+}
+
 #header {
-   /*background-color: rgb(225, 244, 247);*/
    width: 70%;
    height: 70px;
    padding-left: 15%;
@@ -47,8 +65,9 @@ a {
 #navbar ul li {
     display: inline;
     padding: 20px;
-    font-family: NordicaRegular, Helvetica, Verdana, Sans-Serif;
+    font-family: NordicaThin, Helvetica, Verdana, Sans-Serif;
     letter-spacing: 0.1em;
+    font-weight: 600;
 }
 
 #navbar ul li a {
@@ -66,12 +85,140 @@ a {
    float: left;
    width: 45%;
    height: 100%;
-   background-color: red;
+   padding-top: 10px;
+}
+
+#profileImage {
+   width:100%;
+   height:400px;
+   background: url(../images/Profile.png);
+   background-repeat: no-repeat;
+   background-size: 85%;
+
 }
 
 #content {
    float: right;
    width: 55%;
-   background-color: blue;
    height: 100%;
 }
+
+#content p a {
+   font-weight: 600;
+}
+
+#about {
+}
+
+#firstParagraph {
+   font-weight: 600;
+}
+
+
+
+#projects {
+   display: none;
+}
+
+#appleProjects {
+   width: 100%;
+   overflow:auto;
+   margin-bottom: 20px;
+}
+
+#appleText {
+   margin-top: 15px;
+   float:left;
+   width: 75%;
+   margin-bottom: 30px;
+}
+
+#appleIcon {
+   height: 100%;
+   width: 25%; 
+   float: right;
+   margin-bottom: 30px;
+}
+
+#appleIcon img {
+   float: right;
+}
+
+
+#gitProjects {
+   width: 100%;
+   overflow:auto;
+}
+
+#gitText {
+   margin-top: 15px;
+   float:left;
+   width: 75%;
+   margin-bottom: 30px;
+}
+
+#gitIcon {
+   height: 100%;
+   width: 25%; 
+   float: right;
+   margin-bottom: 30px;
+}
+
+#gitIcon img {
+   float: right;
+}
+
+
+
+#resume {
+   display: none;
+}
+
+#resumeContents {
+   width: 100%;
+   overflow:auto;
+}
+
+#resumeText {
+   margin-top: 15px;
+   float:left;
+   width: 75%;
+}
+
+#resumeIcon {
+   height: 100%;
+   width: 25%; 
+   float: right;
+}
+
+#resumeIcon img {
+   float: right;
+}
+
+
+
+#contact {
+   display: none;
+}
+
+#contactContents {
+   width: 100%;
+   overflow:auto;
+}
+
+#contactText {
+   margin-top: 15px;
+   float:left;
+   width: 75%;
+}
+
+#emailIcon {
+   height: 100%;
+   width: 25%; 
+   float: right;
+}
+
+#emailIcon img {
+   float: right;
+}
+
