@@ -55,7 +55,7 @@ h1 {
 #headerLogo {
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 #navbar {
@@ -88,7 +88,7 @@ h1 {
    height: 100%;
    padding-left: 15%;
    padding-right: 15%;
-   padding-top: 50px;
+   padding-top: 1em;
 }
 
 #profileCollumn {
@@ -136,21 +136,20 @@ h1 {
 }
 
 #appleText {
-   margin-top: 15px;
-   float:left;
-   width: 75%;
-   margin-bottom: 30px;
+   margin-top: 1em;
+   width: 100%;
+   margin-bottom: 1em;
 }
 
 #appleIcon {
-   height: 100%;
-   width: 25%; 
-   float: right;
-   margin-bottom: 30px;
+   width: 100%; 
+   margin-bottom: 1em;
 }
 
 #appleIcon img {
-   float: right;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
@@ -160,21 +159,19 @@ h1 {
 }
 
 #gitText {
-   margin-top: 15px;
-   float:left;
-   width: 75%;
-   margin-bottom: 30px;
+   margin-top: 3em;
+   width: 100%;
 }
 
 #gitIcon {
-   height: 100%;
-   width: 25%; 
-   float: right;
-   margin-bottom: 30px;
+   width: 100%; 
 }
 
 #gitIcon img {
-   float: right;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2em;
 }
 
 
@@ -190,18 +187,18 @@ h1 {
 
 #resumeText {
    margin-top: 15px;
-   float:left;
-   width: 75%;
+   width: 100%;
 }
 
 #resumeIcon {
-   height: 100%;
-   width: 25%; 
-   float: right;
+   width: 100%; 
 }
 
 #resumeIcon img {
-   float: right;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2em;
 }
 
 
@@ -216,18 +213,18 @@ h1 {
 }
 
 #contactText {
-   margin-top: 15px;
-   float:left;
-   width: 75%;
+   margin-top: 1em;
+   width: 100%;
 }
 
 #emailIcon {
-   height: 100%;
-   width: 25%; 
-   float: right;
+   width: 100%; 
+
 }
 
 #emailIcon img {
-   float: right;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
