@@ -3,6 +3,8 @@
 <head>
    <title>Brent Williams</title>
 
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -22,12 +24,14 @@
    <meta name="theme-color" content="#ffffff">
 
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="stylesheet" media="(max-width: 950px)" href="css/max-950px.css">
+   <link rel="stylesheet" media="(min-width: 950px)" href="css/min-950px.css">
 </head>
 <body>
 
 <div id="header">
-   <img src="images/BrentWilliamsLogo.png" alt="Logo">
+   <a href=""><img id="headerLogo" src="images/BrentWilliamsLogo.png" alt="Logo"></a>
    <span id="navbar">
       <ul>
          <li>
