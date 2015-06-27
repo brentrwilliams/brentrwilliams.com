@@ -27,7 +27,7 @@ $('#resumeLink').on('click',function() {
    return false; // Makes it so the anchor doesn't reload the page
 });
 
-$('#contactLink').on('click',function() {
+$('.contactLink').on('click',function() {
    $('#about').hide();
    $('#projects').hide();
    $('#resume').hide();
